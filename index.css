@@ -1,3 +1,5 @@
+/*min-height: 80vh; for height: 100% to work, the parent (body) needs a height. min-height: 80vh won't work, the parent needs a HEIGHT for the child height: 100% to work*/
+
 *{
     margin: 0;
     padding: 0;
@@ -5,8 +7,17 @@
 }
 
 
-/*Font and landing page background*/
+/*Font and landing*/
 body{
+    
+}
+
+.landing-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-page-background{
     min-height: 80vh;
     width: auto;
     background-image: url('./imgs/outdoors.jpg');
@@ -14,6 +25,13 @@ body{
     background-size: cover;
 }
 
+.landing-page-overlay{
+    min-height: 80vh;
+    width: auto;
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+    bottom: 80vh;
+} /*using flexbox and overlaying one child over the other using position relative*/
 
 
 /*code for smooth scrolling and hiding the scrollbar for multiple browsers*/
@@ -82,6 +100,7 @@ html{
     width:100%;
     height: auto;
 }
+
 
 .landing-page-header{
     text-align: center;

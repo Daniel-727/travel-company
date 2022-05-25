@@ -19,65 +19,110 @@
 <!--Body-->
 <body class="disable-scrollbars">
 
-
     <!--Navbar-->
-    <nav class="navbar navbar-expand-md sticky-top">
-        <a class="navbar-brand navbar-text"
-            href="#">
-            <span>Liberty</span>
-        </a>
-        
-        <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-        >
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <nav class="navbar navbar-expand-sm sticky-top">
+            <a class="navbar-brand navbar-text"
+                href="#">
+                <span>Liberty</span>
+            </a>
+            
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link navbar-text" href="#">Camp & Hike</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link navbar-text" href="#">Climb</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link navbar-text" href="#">Cycle</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link navbar-text" href="#">Water</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link navbar-text" href="#">Snow</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link navbar-text" href="#">Travel</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link navbar-text" href="#">Run</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" fill="currentColor" class="bi bi-cart3 shopping-cart" viewBox="0 0 16 16">
-                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-                      </svg></a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link navbar-text" href="#">Camp & Hike</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-text" href="#">Climb</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-text" href="#">Cycle</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" fill="currentColor" class="bi bi-cart3 shopping-cart" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                        </svg></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
 
 
     <!--Landing page Background-image by Bailey Zindel on Unsplash-->
-    <section class="landing-page container">
+        <section class="landing-page container">
+            <div class="landing-page-overlay">
+            </div>
+
+            <div class="landing-page-header">
+                <h1>Live your best life</h1>
+            </div>
+
+        </section>
+
+        <!--Bootstrap carousel-->
+        <div
+            id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"
+        >
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imgs/trailer.jpg" class="d-block w-100" alt="backpack">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/sunshine-outdoors.jpg" class="d-block w-100" alt="skis">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/friends-outdoor.jpg" class="d-block w-100" alt="tent">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
         
 
-    </section>
+        
+    
+
+    <!--trailer photo by Blade Wisz on Unsplash-->
+    <!--sunshine-outdoors photo by Holly Mandarich on Unsplash-->
+    <!--friends-outdoor photo by Felix Rostig on Unsplash-->
+    
+
     
     <!--Bootstrap scripts-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>

@@ -12,26 +12,21 @@ body{
     
 }
 
-.landing-page{
-    display: flex;
-    flex-direction: column;
-}
-
-.landing-page-background{
-    min-height: 80vh;
-    width: auto;
+.landing-page{ 
     background-image: url('./imgs/outdoors.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.landing-page-overlay{
+.landing-page-overlay{ /* parent does not need a height, I am giving it to .landing-page-overlay, because the parent element will adjust its height according the child element */
+    background-color: rgba(0,0,0,0.35);
     min-height: 80vh;
-    width: auto;
-    background-color: rgba(0,0,0,0.5);
-    position: relative;
-    bottom: 80vh;
-} /*using flexbox and overlaying one child over the other using position relative*/
+}
+
+.landing-page-content{
+    color: white;
+    
+}
 
 
 /*code for smooth scrolling and hiding the scrollbar for multiple browsers*/

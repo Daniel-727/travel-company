@@ -25,7 +25,14 @@ body{
 
 .landing-page-content{
     color: white;
-    
+}
+
+.first-row{
+    margin: 40px 0;
+}
+
+.container{
+    padding-bottom: 50px;
 }
 
 

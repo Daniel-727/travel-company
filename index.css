@@ -9,8 +9,7 @@
 
 /*Font and landing*/
 body{
-    
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -124,11 +123,37 @@ html{
 /*~~~~Carousel with travel options~~~~*/
 
 .carousel-section{
-    background-color: #fd7e14; 
+    background-color: #fd7e14;
+    color: white;
 }
 
-.carousel-container{
-    padding-top: 70px;
+.carousel-header{
+    padding: 50px 0;
+}
+
+.carousel-caption{
+    background-color: rgba(0,0,0,0.4);
 }
 
 
+
+/*~~~~~Individual slides~~~~~*/
+.slides{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+
+.slide-1{
+    background-image: url('./imgs/trailer.jpg');
+}
+
+.slide-2{
+    background-image: url('./imgs/sunshine-outdoors.jpg');
+}
+
+.slide-3{
+    background-image: url('./imgs/friends-outdoor.jpg');
+}

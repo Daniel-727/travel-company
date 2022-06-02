@@ -10,30 +10,12 @@
 /*Font and landing*/
 body{
     
+    
 }
 
-.landing-page{ 
-    background-image: url('./imgs/outdoors.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-.landing-page-overlay{ /* parent does not need a height, I am giving it to .landing-page-overlay, because the parent element will adjust its height according the child element */
-    background-color: rgba(0,0,0,0.35);
-    min-height: 80vh;
-}
 
-.landing-page-content{
-    color: white;
-}
 
-.first-row{
-    margin: 40px 0;
-}
-
-.container{
-    padding-bottom: 50px;
-}
 
 
 /*code for smooth scrolling and hiding the scrollbar for multiple browsers*/
@@ -56,23 +38,16 @@ html{
 /* end of scrollbar styling */
 
 
-/*Navbar*/
+
+
+
+
+/*~~~~Navbar~~~~*/
 .navbar{
-    padding: 10px 25px;
-    margin-left: 5px;
+    padding: 0 25px;
+    height: 54px;
 }
 
-/* .navbar-text, .navbar-brand{
-    padding: 0;
-}
-
-.navbar-text{
-    padding: 10px 0;
-} */
-
-.navbar-brand{
-    padding-bottom: 20px;
-}
 
 .shopping-cart{
     position: relative;
@@ -97,37 +72,49 @@ html{
 
 
 
-/*Landing page*/
-.landing-page{
-    width:100%;
-    height: auto;
+
+
+/*~~Home Page~~~*/
+
+.home-page-background{ 
+    background-image: url('./imgs/outdoors.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-page-overlay{ /* parent does not need a height, I am giving it to .landing-page-overlay, because the parent element will adjust its height according the child element */
+    background-color: rgba(0,0,0,0.35);
+    
+}
+
+.home-page-content{
+    color: white;
+    min-height: 80vh;
+}
+
+.first-row{
+    margin: 70px 0;
+}
+
+.home-page-section-headers{
+    margin-bottom: 40px;
+}
+
+.home-page-paragraphs{
+    margin-bottom: 80px;
+}
+
+.container{
+    padding-bottom: 50px;
 }
 
 
-.landing-page-header{
-    text-align: center;
-    margin-top: 20px;
+
+
+/*~~~~Carousel with travel options~~~~*/
+
+.carousel-section{
+    background-color: grey;
 }
 
-
-
-
-/*Carousel with travel options*/
-
-.carousel-caption{
-    color: rgb(39, 39, 39);
-}
-
-/* .carousel-item{
-    height: 32rem;
-} */
-
-.carousel-item img{
-    max-width: 75%;
-    height: auto;
-    margin: 0 12.5%;
-    border: medium solid white;
-    border-radius: 50%;
-    z-index: -1;
-}
 

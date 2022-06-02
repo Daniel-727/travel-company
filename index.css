@@ -49,25 +49,28 @@ html{
 }
 
 
-.shopping-cart{
-    position: relative;
-    top: -5px;
+/*~~Navbar Links~~*/
+.navbar-text:link, .navbar-text:visited, .sh{
     color: white;
 }
 
-.navbar-text{
-    color: white;
+.navbar-text:hover, .navbar-text:active{
+    color:#fd7e14;
 }
+
+
+/* .shopping-cart{
+    position: relative;
+    top: -5px;
+    color: white;
+} */
 
 /* use code below to change color of bootstrap default hamburger icon*/
 .navbar-toggler-icon{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-/*Navbar hover*/
-.shopping-cart:hover, .navbar-text:hover{
-    color:rgb(101, 40, 40);
-}
+
 
 
 
@@ -94,6 +97,7 @@ html{
 
 .first-row{
     margin: 70px 0;
+    background-color: #fd7e14;
 }
 
 .home-page-section-headers{
@@ -114,7 +118,7 @@ html{
 /*~~~~Carousel with travel options~~~~*/
 
 .carousel-section{
-    background-color: grey;
+    background-color: #fd7e14; 
 }
 
 

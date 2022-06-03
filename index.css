@@ -98,11 +98,16 @@ html{
 .home-page-content{
     color: white;
     min-height: 80vh;
+    line-height: 2rem;
 }
 
 .first-row{
     margin: 70px 0;
     background-color: #fd7e14;
+}
+
+.first-row h1{
+    margin: 0;
 }
 
 .home-page-section-headers{
@@ -125,6 +130,7 @@ html{
 .carousel-section{
     background-color: #fd7e14;
     color: white;
+    line-height: 1.5rem;
 }
 
 .carousel-header{
@@ -133,6 +139,15 @@ html{
 
 .carousel-caption{
     background-color: rgba(0,0,0,0.4);
+    max-width: 500px; /*didn't want the text to be too wide or else it gets hard to read*/
+    margin: 0 auto; /*text was no longer centered after using max-width so I centered it*/
+}
+
+
+.carousel-inner{
+    /* box-shadow: -3px 10px 5px rgba(0,0,0,0.5); */
+    box-shadow: 0 10px 10px rgba(0,0,0,0.4);
+    
 }
 
 
